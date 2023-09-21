@@ -6,12 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid Tracker App</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
 </head>
 
 <body>
     <h1>Covid Tracker</h1>
-    <div class="flex-container">
-        <div class="header-container">Header</div>
+    <div class=" flex-container">
+        <div class="header-container">
+            <div style="display: flex; flex-direction: row;">
+                <ion-icon name="globe-outline"></ion-icon>
+                Stats Overview
+            </div>
+            <div>
+                <ion-icon name="calendar-outline"></ion-icon>
+                Last Updated
+            </div>
+            <div>
+                <ion-icon name="medkit-outline"></ion-icon>
+                Total Recovered
+            </div>
+            <div>
+                <ion-icon name="trending-down-outline"></ion-icon>
+                Total Deaths
+            </div>
+        </div>
         <div class="content-container">
             <div class="map-container">Map</div>
             <div class="aside-container">ListofProvinces</div>
