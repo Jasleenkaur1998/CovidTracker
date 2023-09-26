@@ -50,3 +50,13 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
 }
+
+.aside-container h4 {
+    text-align: center;
+    color: #c31414;
+}
+
+.region-background {
+    background-color: #ecedf3;
+    margin: 10px;
+}
