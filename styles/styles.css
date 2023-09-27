@@ -31,6 +31,16 @@ h1 {
     padding: 10px;
 }
 
+.cases-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#area {
+    width: 60%;
+}
+
 .content-container {
     display: flex;
     grid-gap: 20px;
